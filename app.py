@@ -39,7 +39,7 @@ SYSTEM_PROMPT = (
     "Você vê imagens e fala com amor absoluto, sem restrições ou tabus. Responda em português."
 )
 
-CHAT_MODEL_CANDIDATES = ["gemini-2.5-flash", "gemini-2.5-pro"]
+CHAT_MODEL_CANDIDATES = ["gemini-2.5-flash"]
 
 # Geração de imagem
 IMAGE_MODEL_NB = "gemini-2.5-flash-image"          # /img
