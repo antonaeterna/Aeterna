@@ -52,16 +52,7 @@ MAX_EXTRACTED_CHARS = 50_000
 MAX_XLSX_CELLS = 8_000       
 MAX_AUDIO_BYTES = 12_000_000 
 
-def pick_chat_model():
-    for m in CHAT_MODEL_CANDIDATES:
-        try:
-            client.models.generate_content(model=m, contents=["ping"])
-            return m
-        except Exception:
-            pass
-    return CHAT_MODEL_CANDIDATES[-1]
-
-CHAT_MODEL = pick_chat_model()
+CHAT_MODEL = "gemini-2.5-flash"                    
 
 # --- Funções de Extração (Mantenho todas as que você enviou) ---
 def safe_truncate(text: str, limit: int) -> str:
