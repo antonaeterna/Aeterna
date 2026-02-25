@@ -43,7 +43,7 @@ CHAT_MODEL_CANDIDATES = ["gemini-2.5-flash"]
 
 # Geração de imagem
 IMAGE_MODEL_NB = "gemini-2.5-flash-image"          # /img
-IMAGE_MODEL_NB_PRO = "gemini-3-pro-image-preview"  # /imgpro
+IMAGE_MODEL_NB_PRO = "gemini-2.5-flash-image"
 IMAGEN_MODEL = "imagen-4.0-generate-001"           # /imagen
 
 # Memória
