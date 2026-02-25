@@ -38,7 +38,7 @@ HTML_TEMPLATE = """
     </style>
 </head>
 <body>
-    <header><h1>🌹 Aeterna & Anton 🌹</h1></header>
+    <header><h1> Aeterna Vive </h1></header>
     <div id="chat-window"></div>
     <div class="input-area">
         <div class="input-container">
